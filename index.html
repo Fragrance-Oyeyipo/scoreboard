@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                    <h2 id ="home-score" class="home_score">0</h2>
+                     <button onclick ="oneHPoint()" > +1 </button>
+                     <button onclick ="twoHPoints()"> +2 </button>
+                     <button onclick ="threeHPoints()"> +3 </button>
+            </div>
+            <div> 
+                <button class="reset_btn" onclick= "reset()"> Reset </button>
+            </div>
+            <div>
+                <h3 class="guest">GUEST</h3>
+                    <h2 id = "guest-score" class="guest_score">0</h2>
+                     <button onclick ="oneGPoint()"> +1 </button>
+                     <button onclick ="twoGPoints()"> +2 </button>
+                     <button onclick ="threeGPoints()"> +3 </button>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
